@@ -1,5 +1,7 @@
 <div align="center">
 
+> **⚠️ 二次开发说明**：本仓库基于 [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)（MIT）二次开发，原 LICENSE 保留，改动详见 [NOTICE](NOTICE)。
+
 # 女娲.skill
 
 <p align="center">
