@@ -1,0 +1,18 @@
+NOTICE
+======
+
+nuwa-skill 二次开发说明
+-----------------------
+
+本仓库基于 [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)
+（MIT License，Copyright (c) 2026 Huashu (花叔)）二次开发，原 LICENSE 保持不变。
+
+二次开发内容（Modified by laomo）：
+- 适配 DSH（~/.dsh/skills/）技能目录与触发约定
+- 修复 `scripts/download_subtitles.sh` 字幕判定逻辑缺陷
+  （`/tmp/.ytdlp_marker` 从未创建导致 `find -newer` 恒假、
+  中文人工字幕下载成功也被误判失败；已统一为 `-mmin -1`）
+- 清理 examples/trump-perspective 调研文档中的 AI 会话转录残留
+  （作者本机绝对路径与 REMINDER 噪音）
+
+修改时间：2026-08
